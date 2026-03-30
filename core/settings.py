@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home',  #[home = app]
+    'notes',  #[new app called notes]
 ]
 
 MIDDLEWARE = [
