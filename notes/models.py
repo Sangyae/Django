@@ -6,3 +6,5 @@ class Notes(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     like = models.PositiveSmallIntegerField(default=0)
 
+def __str__(self):
+        return self.title
