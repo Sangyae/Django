@@ -3,15 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY notess</title>
+    <title>Document</title>
     <link rel="icon" href="data:,">
 </head>
 <body>
-    <h1>These are the notes!</h1>
-    <ul>
-        {% for note in notes %}
-            <li>{{ note.title }}</li>
-        {% endfor %}
-    </ul>
+    <h1>{{note.title}}</h1>
+    <p>{{note.text}}</p>
 </body>
 </html>
